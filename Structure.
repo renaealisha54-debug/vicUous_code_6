@@ -1,0 +1,16 @@
+ViciousCode/                 <-- Root Repository
+├── .github/                 <-- CI/CD Workflows
+│   └── workflows/
+│       └── main.yml         <-- GitHub Action for automated APK builds
+├── app/                     <-- Main Module
+│   ├── build.gradle.kts     <-- Module-level build file
+│   └── src/
+│       └── main/
+│           ├── java/com/vicious/code/
+│           │   ├── MainActivity.kt
+│           │   └── OverlayService.kt
+│           ├── res/         <-- Resources (Layouts, Drawables)
+│           └── AndroidManifest.xml
+├── build.gradle.kts         <-- Root build file
+├── settings.gradle.kts      <-- Project settings (includes ":app")
+└── gradlew                  <-- Gradle wrapper
